@@ -1,0 +1,36 @@
+{
+  "name": "ng-pwa-sample",
+  "short_name": "ng-pwa-sample",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/icons/icon_16.png",
+      "sizes": "16",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_32.png",
+      "sizes": "32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_64.png",
+      "sizes": "64",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_128.png",
+      "sizes": "128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_256.png",
+      "sizes": "256",
+      "type": "image/png"
+    }
+  ]
+}
