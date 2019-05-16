@@ -8,27 +8,27 @@
   "start_url": "/",
   "icons": [
     {
-      "src": "ng-pwa-sample/assets/icons/icon_16.png",
+      "src": "assets/icons/icon_16.png",
       "sizes": "16",
       "type": "image/png"
     },
     {
-      "src": "ng-pwa-sample/assets/icons/icon_32.png",
+      "src": "assets/icons/icon_32.png",
       "sizes": "32",
       "type": "image/png"
     },
     {
-      "src": "ng-pwa-sample/assets/icons/icon_64.png",
+      "src": "assets/icons/icon_64.png",
       "sizes": "64",
       "type": "image/png"
     },
     {
-      "src": "ng-pwa-sample/assets/icons/icon_128.png",
+      "src": "assets/icons/icon_128.png",
       "sizes": "128",
       "type": "image/png"
     },
     {
-      "src": "ng-pwa-sample/assets/icons/icon_256.png",
+      "src": "assets/icons/icon_256.png",
       "sizes": "256",
       "type": "image/png"
     }
