@@ -214,7 +214,7 @@ var styles = ["a[_ngcontent-%COMP%], h1[_ngcontent-%COMP%], p[_ngcontent-%COMP%]
 var styles_AppComponent = [styles];
 var RenderType_AppComponent = core_["ɵcrt"]({ encapsulation: 0, styles: styles_AppComponent, data: {} });
 
-function View_AppComponent_0(_l) { return core_["ɵvid"](0, [(_l()(), core_["ɵeld"](0, 0, null, null, 3, "div", [], null, null, null, null, null)), (_l()(), core_["ɵeld"](1, 0, null, null, 1, "h1", [], null, null, null, null, null)), (_l()(), core_["ɵted"](-1, null, ["lifewood pwa first sample"])), (_l()(), core_["ɵeld"](3, 0, null, null, 0, "img", [["alt", ""], ["src", "ng-pwa-sample/assets/icons/icon_256.png"]], null, null, null, null, null))], null, null); }
+function View_AppComponent_0(_l) { return core_["ɵvid"](0, [(_l()(), core_["ɵeld"](0, 0, null, null, 3, "div", [], null, null, null, null, null)), (_l()(), core_["ɵeld"](1, 0, null, null, 1, "h1", [], null, null, null, null, null)), (_l()(), core_["ɵted"](-1, null, ["lifewood pwa first sample"])), (_l()(), core_["ɵeld"](3, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/icons/icon_256.png"]], null, null, null, null, null))], null, null); }
 function View_AppComponent_Host_0(_l) { return core_["ɵvid"](0, [(_l()(), core_["ɵeld"](0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), core_["ɵdid"](1, 49152, null, 0, AppComponent, [], null, null)], null, null); }
 var AppComponentNgFactory = core_["ɵccf"]("app-root", AppComponent, View_AppComponent_Host_0, {}, {}, []);
 
