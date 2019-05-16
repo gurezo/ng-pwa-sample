@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ng-pwa-sample",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -112,7 +112,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/ng-pwa-sample-server",
+            "outputPath": "docs-server",
             "main": "src/main.server.ts",
             "tsConfig": "src/tsconfig.server.json"
           },
@@ -129,6 +129,20 @@
                 "scripts": false,
                 "styles": true
               }
+            }
+          }
+        },
+        "app-shell": {
+          "builder": "@angular-devkit/build-angular:app-shell",
+          "options": {
+            "browserTarget": "ng-pwa-sample:build",
+            "serverTarget": "ng-pwa-sample:server",
+            "route": "shell"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ng-pwa-sample:build:production",
+              "serverTarget": "ng-pwa-sample:server:production"
             }
           }
         }
