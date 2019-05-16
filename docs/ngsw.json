@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1558014895411,
+  "timestamp": 1558015295182,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -23,6 +23,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/assets/icon_256.png",
         "/assets/icons/icon_128.png",
         "/assets/icons/icon_16.png",
         "/assets/icons/icon_256.png",
@@ -34,6 +35,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/assets/icon_256.png": "7b9d7f58a89644efa6c9734616900bc79f42e8c0",
     "/assets/icons/icon_128.png": "f64b0386fea238ad30a055cc74cb456bcfa52457",
     "/assets/icons/icon_16.png": "4e8d0d7f2606e80c935f1f3aded58be1bd615307",
     "/assets/icons/icon_256.png": "7b9d7f58a89644efa6c9734616900bc79f42e8c0",
